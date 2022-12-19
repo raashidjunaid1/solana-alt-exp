@@ -1,0 +1,17 @@
+{
+  "name": "solana-lookup-table",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.3.6",
+    "@solana/web3.js": "^1.70.1",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "init_tsc": "tsc -init --resolveJsonModule tr"
+  }
+}
